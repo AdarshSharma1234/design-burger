@@ -1,0 +1,22 @@
+
+
+.toggle-path {
+    transition: background 0.3s ease-in-out;
+}
+.toggle-circle {
+    top: 0.22rem;
+    left: 0.30rem;
+    transition: all 0.3s ease-in-out;
+}
+input:checked ~ .toggle-circle {
+    transform: translateX(100%);
+}
+input:checked ~ .toggle-path {
+    background-color:#81E6D9;
+}
+
+.image{
+    background-image: url('../../assets/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

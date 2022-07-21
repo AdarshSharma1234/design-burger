@@ -1,1 +1,99 @@
-<p>nearby-store works!</p>
+<div class="mx-auto w-10/12 bg-slate-50 mt-5  p-3 shadow-2xl">
+    <div class="grid grid-cols-3 gap-5">
+        <div >
+            <img src="../../assets/image1.jpg" class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+        <div>
+            <img src="../../assets/bg-image.jpg"  class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop1=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+        <div>
+            <img src="../../assets/bg-image.jpg"  class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop2=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+        <div>
+            <img src="../../assets/image3.jpeg"  class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop3=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+        <div>
+            <img src="../../assets/image3.jpeg"  class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop4=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+        <div>
+            <img src="../../assets/image3.jpeg"  class="w-full h-[15rem] shadow-2xl rounded-lg" alt="" (click)="imagepop5=true">
+            <h1 class=" font-serif font-semibold">cutrose</h1>
+            <p class="font-medium">Rs-110</p>
+        </div>
+
+       
+    </div>
+</div>
+<div class="relative" *ngIf="imagepop">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
+
+<div class="relative" *ngIf="imagepop1">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop1=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
+
+
+<div class="relative" *ngIf="imagepop2">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop2=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
+
+
+<div class="relative" *ngIf="imagepop3">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop3=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
+
+
+<div class="relative" *ngIf="imagepop4">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop4=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
+
+
+<div class="relative" *ngIf="imagepop5">
+    <div class="bg-white shadow-2xl mx-auto w-1/3 cursor-pointer  mt-5 rounded-lg p-5 absolute bottom-[20rem] left-[20rem] ">
+        <span class="text-4xl font-bold flex justify-end" (click)="imagepop5=false">-</span>
+        <img src="../../assets/bg-image.jpg" class="w-20 h-20 rounded-full text-center shadow-2xl absolute right-[20rem] bottom-5 -top-10" alt="">
+        <h1 class=" font-serif text-lg font-medium ">  ipsum, dolor sit amet consectetur adipisicing elit. Quod atque perferendis eos impedit nulla
+             praesentium ducimus quos sequi tempora dolorem, quisquam eum repellat. Adipisci ducimus culpa ab debitis,
+             labore sequi officia autem perferendis architecto, rem nulla excepturi maxime molestias cupiditate.</h1>
+    </div>
+</div>
